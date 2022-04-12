@@ -1,23 +1,14 @@
 var ctx = document.getElementById('myChart').getContext('2d');
 
 var myChart = new Chart(ctx, {
-  type: 'line',
+  type: 'bar',
   data: {
-    labels: ['1800', '1825', '1850', '1875', '1900', '1925', '1950', '1975', '2000'],
+    labels: ['America', 'East Asia & Pacific', 'Europe & Central Asia', 'Middle East & North Africa', 'South Asia', 'Sub-saharan Africa'],
     datasets: [{
-      label: 'China',
-      data: [32, 32, 32, 31.96, 31.75, 31.55, 40.73, 63.26, 70.03],
-      fill: false,
-      backgroundColor: '#00b159',
-      borderColor: '#00b159'
-    },
-      {
-        label: 'India',
-        data: [22.44, 25.44, 25.44, 25.11, 18.37, 26.69, 34.92, 51.51, 62.34],
-        fill: false,
-        borderColor: '#00aebd',
-        backgroundColor: '#00aebd'
-      }
+      label: ['GDP'],
+      data: [18791.13, 14480.30, 20818.45, 13856.00, 2505.17, 2569.00],
+      backgroundColor: ['#A61723', '#5E7330', '#244274', '#FF540D', '#AEDFF2', '#F2B705']
+    }
   ]
   },
   options: {
@@ -25,14 +16,14 @@ var myChart = new Chart(ctx, {
     plugins: {
       title: {
         display: true,
-        text: 'Life expectancy in the five most populous countries in the world',
+        text: 'GDP Per Capita by Region',
         font: {
-          size: 18
+          size: 20
         }
       },
       subtitle: {
         display: true,
-        text: 'Life expectancy has risen steadily in the last 100 years'
+        text: 'The smallest gap in average GDP is between South Asia and Sub-saharan Africa, with a difference of 63.83'
       }
     },
     scales: {

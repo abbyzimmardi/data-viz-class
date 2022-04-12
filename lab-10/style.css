@@ -1,3 +1,19 @@
 .chartContainer {
-  width: 50%;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.chart {
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.source {
+  font-family: "Arial", sans-serif;
+  font-size: 13px;
+  margin-left: 100px;
+  color: #808080;
+  font-style: italic;
 }

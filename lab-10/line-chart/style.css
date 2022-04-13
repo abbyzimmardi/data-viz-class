@@ -12,7 +12,28 @@
 .source {
   font-family: "Arial", sans-serif;
   font-size: 13px;
-  margin-left: 100px;
+  margin-left: 80px;
   color: #808080;
   font-style: italic;
+}
+
+.chartContainer2 {
+    width:80%;
+    margin: auto;
+}
+
+h1 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: light;
+  font-family: sans-serif;
+  color: #737373;
+}
+
+.subtitle {
+  font-size: 12px;
+  text-align: center;
+  font-weight: lighter;
+  font-family: sans-serif;
+  color: #737373;
 }

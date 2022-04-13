@@ -1,5 +1,5 @@
+//bar chart
 var ctx = document.getElementById('myChart').getContext('2d');
-
 var myChart = new Chart(ctx, {
   type: 'bar',
   data: {
@@ -13,12 +13,12 @@ var myChart = new Chart(ctx, {
   },
   options: {
     responsive: true,
-    plugins: {
-      title: {
-        display: true,
-        text: 'GDP Per Capita by Region',
-        font: {
-          size: 20
+      plugins: {
+        title: {
+          display: true,
+          text: 'GDP Per Capita by Region',
+          font: {
+            size: 20
         }
       },
       subtitle: {

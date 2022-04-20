@@ -32,14 +32,14 @@ var myChart = new Chart(ctx, {
         plugins: {
             title: {
                 display: true,
-                text: 'People Who have Committed School Shootings by Age, Gender',
+                text: 'People Who have Committed School Shootings in the United States by Age, Gender',
                 font: {
                     size: 18
                 }
             },
             subtitle: {
                 display: true,
-                text: 'Since the 1999 Columbine shooting to 2019, the five age groups with the largest number of people who have committed school shootings are 18 and younger.'
+                text: 'From the 1999 Columbine shooting to 2019, the five age groups with the largest number of people who have committed school shootings are 18 and younger.'
             }
         },
         scales: {
@@ -128,7 +128,7 @@ var ctx2 = document.getElementById('myChart2').getContext('2d');
             plugins: {
             title: {
               display: true,
-              text: 'Weapon Sources of People Who Committed School Shootings'
+              text: 'Weapon Sources of People Who Committed School Shootings in the United States'
             },
           subtitle: {
               display: true,

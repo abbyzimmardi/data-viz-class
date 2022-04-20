@@ -129,6 +129,9 @@ var ctx2 = document.getElementById('myChart2').getContext('2d');
             title: {
               display: true,
               text: 'Weapon Sources of People Who Committed School Shootings in the United States'
+              font: {
+                  size: 18
+              }
             },
           subtitle: {
               display: true,

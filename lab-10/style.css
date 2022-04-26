@@ -1,12 +1,6 @@
 .chartContainer {
-  width: 80%;
+  width: 50%;
   margin: auto;
-}
-
-.chart {
-  font-family: "Arial", sans-serif;
-  font-size: 18px;
-  font-weight: bold;
 }
 
 .source {

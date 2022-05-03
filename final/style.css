@@ -7,3 +7,127 @@
     width:60%;
     margin: auto;
 }
+
+body {
+  background-color: black;
+}
+
+/*Scrollytelling*/
+#scrolly {
+  position: relative;
+}
+
+article {
+  position: relative;
+  padding-top: 400px;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.sticky-thing {
+  position: -webkit-sticky;
+  position: sticky;
+  width: 30%;
+  margin-left: 150px;
+  z-index: 0;
+  top: 20vh;
+  height: 110vh;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.title1 {
+  font-size: 50px;
+  color: white;
+}
+
+.step {
+  margin: 0 auto 2rem auto;
+  color: #fff;
+  padding-left: 200px;
+}
+
+.step2 {
+  color: #fff;
+  padding-left: 500px;
+  margin-top: -65px;
+}
+
+.step:last-child {
+  margin-bottom: 100px;
+  padding-bottom: 900px;
+}
+
+.step p {
+  padding-left: 300px;
+}
+
+.row {
+  font-family: georgia, serif;
+  line-height: 200%;
+  font-size: 18px;
+  text-align: left;
+}
+
+#flourish {
+  width: 70%;
+  float: right;
+}
+
+@media only screen and (max-width: 900px) {
+  .headline {
+    font-size: 2em;
+  }
+
+  .byline {
+    font-size: 1em;
+  }
+
+  .dek {
+    font-size: 0.8em;
+    font-weight: 600;
+  }
+
+  /*scrolly telling*/
+  .sticky-thing {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    z-index: 0;
+    top: 9.5vh;
+    height: 44vh;
+    /* Center everything inside */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .step {
+    margin: 0 auto 2rem auto;
+    color: #fff;
+    padding-left: 100px;
+  }
+
+  .step2 {
+    color: #fff;
+    padding-left: 302px;
+    margin-top: -40px;
+  }
+
+  .step:last-child {
+    margin-bottom: -100px;
+    padding-bottom: 600px;
+  }
+
+  .step p {
+    padding-left: 200px;
+  }
+
+  .step:last-child {
+    margin-bottom: 5px;
+    padding-bottom: 500px;
+  }
+  /*end scrolly telling*/

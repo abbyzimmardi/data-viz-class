@@ -13,6 +13,12 @@
   margin: auto;
 }
 
+.lineChart {
+  width:100%;
+  margin: auto;
+  height: 500px;
+}
+
 main {
   background-color: black;
 }
@@ -46,6 +52,26 @@ main {
 
 li {
   margin-left: 200px;
+}
+
+.chatter {
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  font-weight: bold;
+  padding: 60px;
+  text-align: left;
+}
+
+.source {
+  font-family: 'Lato', sans-serif;
+  font-size: .75em;
+  margin-top:10px;
+  font-style: italic;
+  text-align: right;
 }
 
 

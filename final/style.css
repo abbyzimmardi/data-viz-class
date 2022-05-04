@@ -1,16 +1,53 @@
+.radarchart {
+  width:80%;
+  margin: auto;
+}
+
+.treemap {
+  width:70%;
+  margin: auto;
+}
+
 .chartContainer {
-    width:60%;
-    margin: auto;
+  width:60%;
+  margin: auto;
 }
 
-.chartContainer2 {
-    width:60%;
-    margin: auto;
-}
-
-body {
+main {
   background-color: black;
 }
+
+.transition {
+  font-family: 'Lato', sans-serif;
+  font-size: 45px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  font-weight: bold;
+  padding: 70px;
+  border-top: 18px solid #CC503E;
+  text-align: left;
+}
+
+.list {
+  font-family: 'Lato', sans-serif;
+  font-size: 45px;
+  width: 80%;
+  display: block;
+  margin-left: 150px;
+  padding-bottom: 70px;
+  border-bottom: 18px solid #CC503E;
+}
+
+.list-title {
+  margin-left: 50px;
+}
+
+li {
+  margin-left: 200px;
+}
+
 
 /*Scrollytelling*/
 #scrolly {
@@ -31,28 +68,22 @@ article {
   margin-left: 150px;
   z-index: 0;
   top: 20vh;
-  height: 110vh;
+  height: 134vh;
   display: flex;
   align-items: left;
   justify-content: left;
+}
+
+.title {
+  font-size: 50px;
+  color: white;
   font-family: 'Lato', sans-serif;
 }
 
-.title1 {
-  font-size: 50px;
-  color: white;
-}
-
 .step {
-  margin: 0 auto 2rem auto;
-  color: #fff;
-  padding-left: 200px;
-}
-
-.step2 {
-  color: #fff;
   padding-left: 500px;
   margin-top: -65px;
+  margin-bottom: 500px;
 }
 
 .step:last-child {
@@ -64,18 +95,35 @@ article {
   padding-left: 300px;
 }
 
-.row {
-  font-family: georgia, serif;
-  line-height: 200%;
-  font-size: 18px;
+.title2 {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 72px;
   text-align: left;
+  display: block;
+  margin-left: 450px;
+  margin-right: auto;
+  width: 50%;
 }
 
-#flourish {
-  width: 70%;
-  float: right;
+#outro {
+  margin-bottom: 100px;
+  padding-bottom: 500px;
+  margin-top: -400px;
 }
 
+figcaption {
+  display: block;
+  text-align: right;
+  margin-right: 0;
+  font-family: 'Lato', sans-serif;
+  line-height: 500%;
+  color: #f5f5f5;
+  font-size: 12px;
+  font-style: italic;
+}
+
+/*fix this*/
 @media only screen and (max-width: 900px) {
   .headline {
     font-size: 2em;
@@ -90,45 +138,4 @@ article {
     font-weight: 600;
   }
 
-  /*scrolly telling*/
-  .sticky-thing {
-    position: -webkit-sticky;
-    position: sticky;
-    left: 0;
-    width: 100%;
-    margin: 0;
-    z-index: 0;
-    top: 9.5vh;
-    height: 44vh;
-    /* Center everything inside */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .step {
-    margin: 0 auto 2rem auto;
-    color: #fff;
-    padding-left: 100px;
-  }
-
-  .step2 {
-    color: #fff;
-    padding-left: 302px;
-    margin-top: -40px;
-  }
-
-  .step:last-child {
-    margin-bottom: -100px;
-    padding-bottom: 600px;
-  }
-
-  .step p {
-    padding-left: 200px;
-  }
-
-  .step:last-child {
-    margin-bottom: 5px;
-    padding-bottom: 500px;
-  }
   /*end scrolly telling*/

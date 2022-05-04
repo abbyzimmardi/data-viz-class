@@ -10,9 +10,9 @@
    <meta name="description" content="Data Final Project"> <meta name="author" content="Abby Zimmardi">
 
    <!-- Bootstrap CSS and JavaScript -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
    <!--Chart.js JS CDN-->
    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
@@ -39,47 +39,120 @@
 <main>
   <section id="scrolly">
     <div class="sticky-thing">
-      <p class="title1">28 states teach <strong>both</strong> sex and HIV education</p>
+      <p class="title">27 states, plus D.C., teach <em>both</em> sex and HIV education</p>
     </div>
     <article>
       <div class="step" data-step="1">
-        <p class="headline" id="home">Game of her Life</p>
-      </div>
-      <div class="step2" data-step="2">
-          <img src="sex-HIVed.png" class="background" alt="graphic with shapes of states" width="100%;">
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="step" data-step="3">
-        <p class="dek">She's 14, lives in the slums of Uganda and is just now learning to read. But Phiona Mutesi's instincts have made her a player to watch in international chess</p>
+        <img src="photos/sex-HIV-01.png" class="background" alt="graphic with shapes of states" width="100%;">
       </div>
     </article>
   </section>
-  <section id="outro"></section>
-</main>
 
+  <section id="scrolly">
+    <div class="sticky-thing">
+      <p class="title">11 states teach <em>just</em> HIV education</p>
+    </div>
+    <article>
+      <div class="step" data-step="1">
+        <img src="photos/HIVed.png" class="background" alt="graphic with shapes of states" width="100%;">
+      </div>
+    </article>
+  </section>
+
+
+  <section id="scrolly">
+    <div class="sticky-thing">
+      <p class="title">7 states teach <em>no</em> sex or HIV education</p>
+    </div>
+    <article>
+      <div class="step" data-step="1">
+        <img src="photos/NOed.png" class="background" alt="graphic with shapes of states" width="100%;">
+      </div>
+    </article>
+  </section>
+
+
+  <section id="scrolly">
+    <div class="sticky-thing">
+      <p class="title">2 states teach <em>only</em> sex education</p>
+    </div>
+    <article>
+      <div class="step" data-step="1">
+        <img src="photos/sexed.png" class="background" alt="graphic with shapes of states" width="100%;">
+        <figcaption>Data unavailable for three states. Source: Guttmacher Institute</figcaption>
+      </div>
+    </article>
+  </section>
+
+  <section id="outro">
+    <h1 class="title2">The majority of states that have state mandated sex or HIV education, <em>stress</em> the importance of abstinence.</h1>
+  </section>
+</main>
 <!--end scrolly telling-->
 
 
+    <div class="radarchart">
+
+      <div class="flourish-embed flourish-radar" data-src="visualisation/9788018"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+    </div>
+
+<br><br><br><br><br><br><br><br><br><br>
+
+    <div class="treemap">
+
+        <div class="flourish-embed flourish-hierarchy" data-src="visualisation/9614252"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+    </div>
+
+<br><br><br><br><br><br><br><br><br><br>
+
+  <div class="transition">
+
+    <p>Sixteen states include negative information about teen pregnancy in their mandated sex and/or HIV education.</p>
+
+    <br>
+
+    <p>Of the 16 states, nine inlcude information on contraception and six do not include any information on contracpetion, <em>only abstinence</em>.</p>
+
+  </div>
+
+    <div class="list">
+      <ul>
+        <p class="list-title">The six states are:</p>
+          <li>Florida</li>
+          <li>Indiana</li>
+          <li>Mississippi</li>
+          <li>Missouri</li>
+          <li>Ohio</li>
+          <li>Tennesse</li>
+      </ul>
+  </div>
+
+<br><br><br><br><br><br><br>
+
 
      <div class="chartContainer">
-
-       <div class="flourish-embed flourish-hierarchy" data-src="visualisation/9614252"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-
-       <!--<canvas id="myChart"></canvas>
-        <p class="source">Source: Guttmacher</p>-->
-     </div>
-
-
-     <div class="chartContainer2">
 
        <div class="flourish-embed flourish-map" data-src="visualisation/9615867"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
      </div>
 
 
+     <div class="chartContainer">
+
+      <canvas id="myChart"></canvas>
+
+    </div>
+
+
+     <!--jQuery first, then Popper.js, then Bootstrap JS-->
+       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
 
    <script src="javascript.js"></script>
+
  </body>
 </html>

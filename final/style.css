@@ -36,6 +36,19 @@ main {
   text-align: left;
 }
 
+.transition2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 45px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  font-weight: bold;
+  padding: 70px;
+  border-top: 18px solid #CC503E;
+  border-bottom: 18px solid #CC503E;
+}
+
 .list {
   font-family: 'Lato', sans-serif;
   font-size: 45px;
